@@ -1,0 +1,12 @@
+server:
+  port: 9902
+spring:
+  cloud:
+    config:
+      profile: dev
+      uri: http://localhost:9901
+  application:
+    name: config-client-bus-kafka
+management:
+  security:
+    enabled: false
